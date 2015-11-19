@@ -116,4 +116,4 @@ Argon.Vuforia.initialize({
         resolve(morphMesh) 
       } 
     }
-  }
+  })
