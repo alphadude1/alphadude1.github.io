@@ -98,7 +98,7 @@ Argon.Vuforia.initialize({
     return modelPromise = modelPromise || new Promise(function(resolve, reject) { 
       // load the model 
       var loader = new THREE.JSONLoader() 
-      loader.load( 'json/monster.json', function ( geometry, materials ) { 
+      loader.load( 'json/grey colour temp.json', function ( geometry, materials ) {
       loader.load( 'json/space figtor animant.json', function ( geometry, materials ) { 
         materials[0].morphTargets = true 
         var faceMaterial = new THREE.MeshFaceMaterial( materials ) 
@@ -116,4 +116,4 @@ Argon.Vuforia.initialize({
         resolve(morphMesh) 
       }) 
     }) 
-  }
+  })
