@@ -114,6 +114,6 @@ Argon.Vuforia.initialize({
           morphMesh.updateAnimation( 1000 * three.Time.delta ) 
         }) 
         resolve(morphMesh) 
-      }) 
+      } 
     }) 
   }
