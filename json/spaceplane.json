@@ -6,6 +6,8 @@
             "length": 2.4583333333333335,
             "name": "skeletalAction.001"
         }
+        "mapDiffuse" : "grey.jpg",
+    "mapDiffuseWrap" : ["repeat", "repeat"],
     ],
     "bones": [],
     "faces": [
@@ -1936,6 +1938,8 @@
     "metadata": {
         "formatVersion": 3.1,
         "generatedBy": "Maya Exporter"
+        "morphTargets"  : 24
+        "normals"       : 444
     },
     "normals": [
         -0.00093922,
@@ -5119,7 +5123,7 @@
             1.0
         ]
     ],
-    "vertices": [
+    "vertices": 444 [
         -8.24583312,
         1.21155133,
         0.22025096,
